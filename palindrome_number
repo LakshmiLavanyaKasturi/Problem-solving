@@ -1,0 +1,16 @@
+Given an integer x, return true if x is palindrome integer.
+
+An integer is a palindrome when it reads the same backward as forward. For example, 121 is palindrome while 123 is not.
+
+Example 1:
+
+Input: x = 121
+Output: true
+
+Solution:
+
+1. Take the input number into integer
+2. Divide the digits of a number into half (Integer) Eg: Number of digits 6- half is 3. Number of digits is 5. Half (intger) is 2. 
+3. Run a loop from 0 to n/2 and n to n/2. 
+4. Compare both the outputs and return true if the output is same and false if the output is different.
+
