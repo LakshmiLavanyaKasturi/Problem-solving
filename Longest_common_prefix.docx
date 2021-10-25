@@ -1,0 +1,30 @@
+Write a function to find the longest common prefix string amongst an array of strings.
+
+If there is no common prefix, return an empty string "".
+
+Example 1:
+
+Input: strs = ["flower","flow","flight"]
+Output: "fl"
+Example 2:
+
+Input: strs = ["dog","racecar","car"]
+Output: ""
+Explanation: There is no common prefix among the input strings.
+
+
+Psuedo code:
+
+1. Take the input string in an array. Eg: strs = ["flower","grow","flight"]
+2. Read the first value of the string str[0] = flower. 
+3. Now, run a loop to get the prefix values of the arrays and put them in another array to compare the values.
+3. for(i=0; i<strs.length;i++)
+{
+  prefix[i]= str[i].prefix.
+  if(prefix[i] = = prefix[i+1])
+  return prefix[i];
+}
+  
+ Eg: prefix[0] = fl 
+     prefix[1] = gr
+     prefix[2] = fl
