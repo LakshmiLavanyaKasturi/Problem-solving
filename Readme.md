@@ -1,4 +1,4 @@
-My approach to solve a problem
+***My approach to solve a problem***
 
 * Understand the problem
 * Break it down into parts if required
