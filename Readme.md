@@ -1,7 +1,7 @@
 ***My approach to solve a problem***
 
 * Understand the problem
-* Break it down into parts if required
+* Break it down into granular pieces
 * Write an approach to the problem by using step by step process
 * Write the main logic of the problem with an example
 * Choose a programming language and complete the code to solve the problem
