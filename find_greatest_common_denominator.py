@@ -10,13 +10,13 @@ find_greatest_common_denominator.py
 Program in Python:
 """
 
-def gcd(a,b):
+def gcd(a, b):
     while (b != 0):
-    t = a
-    a = b
-    b = t % b
+        t = a
+        a = b
+        b = t % b
     
-return a
+    return a
 
 print(gcd(12, 60))  # should be 12
 print(gcd(20, 8)) #should be 4
