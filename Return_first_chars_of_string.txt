@@ -1,0 +1,12 @@
+Question: Given a string, return the first three chars of the string. 
+
+Psuedo code:
+
+1. Take input string into a variable. 
+2. Read the string into an array of variables. 
+3. Print array from 0-2 chars as a string. 
+
+
+
+
+
